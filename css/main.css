@@ -82,7 +82,8 @@ a {
     font-weight: bold; }
     .question p b {
       color: #21bf73;
-      display: block; }
+      display: block;
+      font-size: 2.2rem; }
 
 .question__section {
   margin: 4rem 0;
