@@ -51,7 +51,7 @@ button:focus {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 0rem 0;
 }
 
 a {
@@ -72,7 +72,7 @@ a {
   background: #007cc7;
   color: #fff;
   padding: 0.2rem 0.7rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   border-radius: 10px;
   font-weight: lighter;
 }
@@ -80,16 +80,16 @@ a {
   background: #fcc41d;
   color: #fff;
   padding: 0.2rem 0.7rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   border-radius: 10px;
   font-weight: bold;
 }
 
 .description {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .description__center {
-  margin: 4rem 0;
+  margin: 1srem 0;
 }
 
 .question {
@@ -105,12 +105,12 @@ a {
 
 .question__section {
   margin: 4rem 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .question__answer {
   background: #fcc41d;
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 2rem;
   border-radius: 10px;
   margin-top: 3rem;
@@ -135,11 +135,11 @@ a {
 }
 
 .question > p {
-  font-size: 3rem;
+  font-size: 1.6rem;
 }
 
 .winners__section {
-  font-size: 2rem;
+  font-size: 1.6rem;
   h1 {
     margin-top: 8rem;
     margin-bottom: 3rem;
@@ -177,7 +177,7 @@ a {
 }
 
 .winners {
-  h1 {
+  h2 {
     text-align: center;
     font-family: 'Righteous';
     color: #007cc7;
