@@ -59,16 +59,14 @@ a {
 .highlight-dark {
   color: #007cc7;
   font-size: 1.6rem;
-  border-radius: 10px;
-  font-weight: lighter; }
+  border-radius: 10px; }
 
 .highlight-light {
   background: #fcc41d;
   color: #fff;
   padding: 0.2rem 0.7rem;
   font-size: 1.6rem;
-  border-radius: 10px;
-  font-weight: bold; }
+  border-radius: 10px; }
 
 .description {
   font-size: 1.6rem; }
