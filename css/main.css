@@ -136,9 +136,9 @@ a {
     display: flex; }
     .winner__person .winner__img img {
       border-radius: 50px;
-      border: 4px solid #007cc7;
+      border: 2px solid #007cc7;
       width: 50px; }
-  .winner__person .winner__details h2 {
+  .winner__person .winner__details h3 {
     cursor: pointer; }
   .winner__person .winner__details p {
     margin: 0; }
