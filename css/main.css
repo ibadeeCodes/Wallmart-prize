@@ -91,7 +91,7 @@ a {
 .question__answer {
   background: #fcc41d;
   font-size: 1.6rem;
-  padding: 1rem 2rem;
+  padding: 0.1rem 1rem;
   border-radius: 10px;
   margin-top: 3rem;
   -webkit-box-shadow: 4px 15px 76px -34px rgba(0, 0, 0, 0.45);
@@ -101,7 +101,7 @@ a {
     display: block;
     text-align: center;
     background: #fff;
-    padding: 0.1rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 5px;
     margin: 1.5rem 0;
     color: #007cc7;
