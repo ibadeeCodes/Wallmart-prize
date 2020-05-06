@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prize Page</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <script>
+      function date() {
+        var currentDate = new Date(new Date().getTime() + 1 * 60 * 60 * 500)
+        var day = currentDate.getDate()
+        var month = currentDate.getMonth()
+        var year = currentDate.getFullYear()
+        var montharray = new Array()
+        montharray[0] = 'January'
+        montharray[1] = 'February'
+        montharray[2] = 'March'
+        montharray[3] = 'April'
+        montharray[4] = 'May'
+        montharray[5] = 'June'
+        montharray[6] = 'July'
+        montharray[7] = 'August'
+        montharray[8] = 'September'
+        montharray[9] = 'October'
+        montharray[10] = 'November'
+        montharray[11] = 'December'
+        document.write(day + ' ' + montharray[month] + ' ' + year)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+        <div class="container">
+          <div class="logo__img">
+            <img src="img/brand.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <section class="description">
+        <div class="container">
+          <div class="published">
+            <h3>
+              <span class="highlight-dark">Published on</span>
+              <script>
+                date()
+              </script>
+            </h3>
+          </div>
+          <p class="description__center">
+            You could be selected for a chance to WIN
+            <span class="highlight-light">Walmart</span> Gift Cards worth
+            <span class="highlight-dark">$500!</span>
+          </p>
+          <p>
+            If you want to participate in the survey, begin with answering the
+            questions below. Unless... you decide to give up your opportunity
+            for a chance to buy all the goodies you want!
+          </p>
+        </div>
+      </section>
+      <section class="question__section">
+        <div class="container">
+          <div class="question" style="display: block;">
+            <p>
+              <b style="font-family: 'Righteous';">Question 1 of 4:</b> What is
+              your age group?
+            </p>
+            <div class="question__answer">
+              <a class="answer cannotContinue" href="#">Below 18</a>
+              <a class="answer" href="#">18-30</a>
+              <a class="answer" href="#">31-50</a>
+              <a class="answer" href="#">50 and above</a>
+            </div>
+          </div>
+          <!-- <div class="question">
+            <p>
+              <b>Question 2 of 4:</b> How much do you spend on fashion in a
+              month?
+            </p>
+            <a class="answer" href="#">Less than €100</a>
+            <a class="answer" href="#">€101-€250</a>
+            <a class="answer" href="#">€251-€500</a>
+            <a class="answer" href="#">€351 and above</a>
+          </div>
+          <div class="question">
+            <p>
+              <b>Question 3 of 4:</b> Where do you normally buy your clothes
+              from?
+            </p>
+            <a class="answer" href="#">David Jones</a>
+            <a class="answer" href="#">M&amp;S</a>
+            <a class="answer" href="#">ASOS</a>
+            <a class="answer" href="#">Other</a>
+          </div>
+          <div class="question">
+            <p>
+              <b>Question 4 of 4:</b> How do you want to spend your gift cards
+              if you won the prize?
+            </p>
+            <a class="answer" href="#">Jeans</a>
+            <a class="answer" href="#">Dresses</a>
+            <a class="answer" href="#">Bags</a>
+            <a class="answer" href="#">Shoes</a>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="winners__section">
+        <div class="container winners">
+          <h1><i class="fas fa-dollar-sign"></i> Previous Winners</h1>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/1.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>Barbara B</h2>
+              <p>Can't Believe it. Estactic.</p>
+            </div>
+          </div>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/2.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>Christine K</h2>
+              <p>Great! I’m over the moon.</p>
+            </div>
+          </div>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/3.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>
+                Amber Hoinville
+              </h2>
+              <p>Brilliant, I can’t believe it!</p>
+            </div>
+          </div>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/4.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>
+                Xavier Shiels
+              </h2>
+              <p>Great!</p>
+            </div>
+          </div>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/5.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>Isabelle Scherf</h2>
+              <p>I’m absolutely over the moon!</p>
+            </div>
+          </div>
+          <div class="winner__person">
+            <div class="winner__img">
+              <img src="img/6.png" alt="winner" />
+            </div>
+            <div class="winner__details">
+              <h2>Will Lane</h2>
+              <p>What a surprise!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
