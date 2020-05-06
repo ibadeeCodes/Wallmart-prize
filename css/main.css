@@ -112,7 +112,7 @@ a {
       color: #fff; }
 
 .question > p {
-  font-size: 1.6rem; }
+  font-size: 1.8rem; }
 
 .winners__section {
   font-size: 1.6rem; }
@@ -143,13 +143,13 @@ a {
   .winner__person .winner__details p {
     margin: 0; }
 
-.winners h2 {
+.winners > h2 {
   text-align: center;
   font-family: 'Righteous';
   color: #007cc7; }
 
 @media (max-width: 380px) {
   .logo img {
-    width: 300px; }
+    width: 200px; }
   .highlight-light {
     line-height: 5rem; } }

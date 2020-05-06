@@ -135,7 +135,7 @@ a {
 }
 
 .question > p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .winners__section {
@@ -176,12 +176,10 @@ a {
   }
 }
 
-.winners {
-  h2 {
-    text-align: center;
-    font-family: 'Righteous';
-    color: #007cc7;
-  }
+.winners > h2 {
+  text-align: center;
+  font-family: 'Righteous';
+  color: #007cc7;
 }
 
 // Media queries for small screen sizes...
@@ -189,7 +187,7 @@ a {
 @media (max-width: 380px) {
   .logo {
     img {
-      width: 300px;
+      width: 200px;
     }
   }
   .highlight-light {
