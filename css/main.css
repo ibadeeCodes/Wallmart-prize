@@ -91,10 +91,7 @@ a {
   font-size: 1.6rem;
   padding: 0.1rem 1rem;
   border-radius: 10px;
-  margin-top: 3rem;
-  -webkit-box-shadow: 4px 15px 76px -34px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 4px 15px 76px -34px rgba(0, 0, 0, 0.45);
-  box-shadow: 4px 15px 76px -34px rgba(0, 0, 0, 0.45); }
+  margin-top: 3rem; }
   .question__answer a {
     display: block;
     text-align: center;
