@@ -58,7 +58,8 @@ a {
 .highlight-dark {
   color: #007cc7;
   font-size: 1.6rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-weight: bold; }
 
 .highlight-light {
   background: #fcc41d;
